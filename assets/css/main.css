@@ -1,0 +1,14 @@
+#main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.team-member-div {
+    width: 287px;
+    height: auto;
+}
+
+.team-member-img {
+    width: 100%;
+}

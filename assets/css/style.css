@@ -1,0 +1,22 @@
+:root {
+    --display-font: 'PT Serif', serif;
+    --body-font:    'Poppins', sans-serif;
+    --footer-font:  'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+.wrapper {
+    border: 1px red solid;
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+}
+
