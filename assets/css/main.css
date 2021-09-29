@@ -1,14 +1,36 @@
 #main {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 238px));
+    grid-gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-member-div:nth-child(3n + 2) {
+    position: relative;
+    top: 6rem;
 }
 
 .team-member-div {
-    width: 287px;
-    height: auto;
+    width: 278px;
+    height: fit-content;
+    position: relative;
 }
 
 .team-member-img {
     width: 100%;
+}
+
+.team-member-name {
+    font-weight: bold;
+    font-family: var(--body-font);
+}
+
+.team-member-title {
+    transform: rotate(90deg);
+    position: relative;
+    top: -20rem;
+    left: 58%;
+    text-transform: uppercase;
+    font-family: var(--display-font);
+    font-size: 12px;
 }

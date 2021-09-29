@@ -2,6 +2,7 @@
     grid-template-columns: 1fr 2fr;
     font-family: var(--body-font);
     margin-top: 110px;
+    margin-bottom: 3rem;
 }
 
 #header > h1 {
